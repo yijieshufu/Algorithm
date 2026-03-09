@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3dbdd9f6ecf67387",
+        "id": "29a5c9a8fc44fd9a",
         "type": "tabs",
         "children": [
           {
-            "id": "b6915b287a0037d1",
+            "id": "230633fe552dd556",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 537.5
+    "width": 426.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,10 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "559bdbae12ab2328",
+  "active": "230633fe552dd556",
   "lastOpenFiles": [
     "算法学习/二分解题法/最少刷题数-真题.md",
+    "算法学习/二分解题法/肖恩的乘法表.md",
     "算法学习/二分解题法/寻找黄金宝藏.md",
+    "算法学习/二分解题法/大衣的旅行.md",
     "题型库.md",
     "未命名.md"
   ]
