@@ -1,49 +1,34 @@
 import sys
-# 优化 I/O
+from bisect import bisect_left, bisect_right
+
 it = iter(sys.stdin.read().split())
-T_cases = int(next(it))
-for _ in range(T_cases):
-    N = int(next(it))
-    M = int(next(it))
-    K = int(next(it))
+n = int(next(it))
+a = [int(next(it)) for _ in range(n)]
 
-    grid = []
-    total_sum = 0
-    for i in range(N):
-        row = [int(next(it)) for _ in range(M)]
-        grid.append(row) # 一行行存储
-        total_sum += sum(row)
+# 排序用于二分统计
+s = sorted(a)
 
-    # 基础可行性判定
-    if total_sum < K + 1: #total_sum:总的容量
-        print("-1")
-        continue
+# 计算全局中位数的左右分布
+mid_val = s[n // 2]
+cntL = bisect_left(s, mid_val) # 小于中位数
+cntR = n - bisect_right(s, mid_val) # 大于中位数
 
-    # 预处理二维前缀和
-    S = [[0] * (M + 1) for _ in range(N + 1)]
-    for i in range(1, N + 1):
-        for j in range(1, M + 1):
-            S[i][j] = grid[i - 1][j - 1] + S[i - 1][j] + S[i][j - 1] - S[i - 1][j - 1]
+# 核心策略：确定对于需要补题的学生，目标分数 T 是多少
+if cntL > cntR:
+    target = mid_val
+else:
+    target = mid_val + 1
 
-    def check(d):
-        # 检查半径 d 是否能容纳 K+1 人
-        for i in range(1, N + 1):
-            for j in range(1, M + 1):
-                if grid[i - 1][j - 1] > 0:  # 老师入住的房间必须有容量
-                    r1, c1 = max(1, i - d), max(1, j - d)
-                    r2, c2 = min(N, i + d), min(M, j + d)
-                    if S[r2][c2] - S[r1 - 1][c2] - S[r2][c1 - 1] + S[r1 - 1][c1 - 1] >= K + 1:
-                        return True
-        return False
-    # 二分查找最小距离 d
-    low, high = 0, max(N, M)
-    ans = high
-    while low <= high:
-        mid = (low + high) // 2
-        if check(mid):
-            ans = mid
-            high = mid - 1
-        else:
-            low = mid + 1
-    print(ans)
+ans = []
+for x in a:
+    # 统计当前学生比他多/少的人数
+    curL = bisect_left(s, x)
+    curR = n - bisect_right(s, x)
 
+    if curR <= curL:
+        ans.append(0)
+    else:
+        # 不达标，则补齐到 target
+        ans.append(max(0, target - x))
+
+print(*(ans))
