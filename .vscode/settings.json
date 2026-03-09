@@ -6,5 +6,11 @@
       "args": ["-NoExit", "-ExecutionPolicy", "Bypass", "-NoProfile", "-Command", "& 'C:\\Users\\Administrator\\miniconda3\\shell\\condabin\\conda-hook.ps1'; conda activate algo"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "PowerShell"
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "stylelint.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true
 }
+
