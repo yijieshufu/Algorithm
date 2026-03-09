@@ -24,6 +24,7 @@ $$
 
     $$
 
+
 SG(x/2) \oplus SG(x/2) = 0
 
 $$
@@ -32,8 +33,11 @@ $$
     
 - **如果 $p$ 是奇质数（如 3, 5, 7...）：**
     
-    $$
+    
+$$
+
 (\underbrace{SG(x/p) \oplus \dots \oplus SG(x/p)}_{p-1 \text{ 个是偶数个，抵消为 0}}) \oplus SG(x/p) = 0 \oplus SG(x/p) = SG(x/p)
+
 $$
 
     这意味着：分成奇数份后，结果依然等于原先一份的 SG 值。
@@ -53,7 +57,9 @@ $$
 把这些放到 mex 集合里：
 
 $$
+
 SG(x) = \text{mex}(\underbrace{\{0\}}_{\text{消除或平分2份}} \cup \underbrace{\{ SG(x/p) \mid p \text{ 是 } x \text{ 的奇质因子} \}}_{\text{平分奇数份}})
+
 $$
 
 ---

@@ -44,6 +44,7 @@
 
     $$
 
+
 \text{Total Ans} = \sum_{s=1}^{L-1} (d(s) \times G(L-s))
 
 $$

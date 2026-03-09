@@ -134,14 +134,14 @@ cur_max = max(cur_max, val)
 
 Python
 
-```
+```python
 heapq.heappush(s, val)
 # 把 100 放进堆。堆现在有：5, 8, 10, 100 (4个数)
 ```
 
 Python
 
-```
+```python
 heapq.heappop(s)
 # 踢掉堆里最小的一个。
 # 5, 8, 10, 100 里面，5 最小。
@@ -158,7 +158,7 @@ heapq.heappop(s)
 
 Python
 
-```
+```python
 ans = max(ans, cur_max - s[0])
 # 算式：100 - 8 = 92
 ```
