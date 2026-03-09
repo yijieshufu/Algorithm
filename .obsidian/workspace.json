@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "559bdbae12ab2328",
+  "active": "b6915b287a0037d1",
   "lastOpenFiles": [
     "题型库.md",
     "未命名.md",
