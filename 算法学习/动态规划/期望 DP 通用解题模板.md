@@ -81,9 +81,17 @@ print(ans)
 
 ### 🛠️ 考场思考路径
 遇到求步数/天数，在草稿纸上画个节点 $i$，写出裸方程：
-$$dp[i] = 1 + P_{stay} \cdot dp[i] + \sum P_{go} \cdot dp[next]$$
+
+$$
+dp[i] = 1 + P_{stay} \cdot dp[i] + \sum P_{go} \cdot dp[next]
+$$
+
 **必须在草稿纸上移项！化简成：**
-$$dp[i] = \frac{1 + \sum P_{go} \cdot dp[next]}{1 - P_{stay}}$$
+
+$$
+dp[i] = \frac{1 + \sum P_{go} \cdot dp[next]}{1 - P_{stay}}
+$$
+
 提取出分子和分母，然后填入代码。如果涉及区间求和，立刻加上后缀和数组优化。
 
 ### 🧩 默写骨架与填空 (Python 3)

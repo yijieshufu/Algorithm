@@ -12,22 +12,30 @@
 
 这相当于把游戏变成了 $p$ 个独立的小游戏，每个规模都是 $x/p$。
 
-$$SG(\text{新状态}) = SG(x/p) \oplus SG(x/p) \oplus \dots \oplus SG(x/p) \quad (\text{共 } p \text{ 个})$$
+$$
+SG(\text{新状态}) = SG(x/p) \oplus SG(x/p) \oplus \dots \oplus SG(x/p) \quad (\text{共 } p \text{ 个})
+$$
 
 ### 2. 异或的神奇性质：偶消奇存
 
 我们知道异或运算有一个特性：$A \oplus A = 0$。
 
 - **如果 $p=2$（唯一的偶质数）：**
-    
-    $$SG(x/2) \oplus SG(x/2) = 0$$
+
+    $$
+
+SG(x/2) \oplus SG(x/2) = 0
+
+$$
     
     这意味着：无论 $x/2$ 的 SG 值是多少，分给 2 份后的结果永远是 0。
     
 - **如果 $p$ 是奇质数（如 3, 5, 7...）：**
     
-    $$(\underbrace{SG(x/p) \oplus \dots \oplus SG(x/p)}_{p-1 \text{ 个是偶数个，抵消为 0}}) \oplus SG(x/p) = 0 \oplus SG(x/p) = SG(x/p)$$
-    
+    $$
+(\underbrace{SG(x/p) \oplus \dots \oplus SG(x/p)}_{p-1 \text{ 个是偶数个，抵消为 0}}) \oplus SG(x/p) = 0 \oplus SG(x/p) = SG(x/p)
+$$
+
     这意味着：分成奇数份后，结果依然等于原先一份的 SG 值。
     
 
@@ -44,7 +52,9 @@ $$SG(\text{新状态}) = SG(x/p) \oplus SG(x/p) \oplus \dots \oplus SG(x/p) \qua
 
 把这些放到 mex 集合里：
 
-$$SG(x) = \text{mex}(\underbrace{\{0\}}_{\text{消除或平分2份}} \cup \underbrace{\{ SG(x/p) \mid p \text{ 是 } x \text{ 的奇质因子} \}}_{\text{平分奇数份}})$$
+$$
+SG(x) = \text{mex}(\underbrace{\{0\}}_{\text{消除或平分2份}} \cup \underbrace{\{ SG(x/p) \mid p \text{ 是 } x \text{ 的奇质因子} \}}_{\text{平分奇数份}})
+$$
 
 ---
 

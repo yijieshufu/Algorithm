@@ -16,7 +16,9 @@ Lucas 定理说：**不管 $n$ 和 $m$ 有多大，我们把它们都写成 $p$ 
 
 公式看起来是这样的：
 
-$$\binom{n}{m} \pmod p \equiv \binom{n \pmod p}{m \pmod p} \times \binom{n // p}{m // p} \pmod p$$
+$$
+\binom{n}{m} \pmod p \equiv \binom{n \pmod p}{m \pmod p} \times \binom{n // p}{m // p} \pmod p
+$$
 
 **这是什么意思呢？**
 

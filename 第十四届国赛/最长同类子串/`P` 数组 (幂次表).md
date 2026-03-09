@@ -16,7 +16,9 @@ h = (h - (nx - j) * P[i - nx]) % MOD
 
 在多项式哈希中，一个子串的哈希值可以表示为：
 
-$$H = (d_1 \cdot B^{k-1} + d_2 \cdot B^{k-2} + \dots + d_{nx} \cdot B^{i-nx} + \dots + d_k \cdot B^0) \pmod M$$
+$$
+H = (d_1 \cdot B^{k-1} + d_2 \cdot B^{k-2} + \dots + d_{nx} \cdot B^{i-nx} + \dots + d_k \cdot B^0) \pmod M
+$$
 
 - **`i - nx`**：表示索引为 `nx` 的字符距离当前窗口右端点 `i` 的距离。
     
