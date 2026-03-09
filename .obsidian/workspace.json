@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/成绩统计-真题.md",
+                "file": "算法学习/二分解题法/大衣的旅行.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "成绩统计-真题"
+              "title": "大衣的旅行"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/成绩统计-真题.md",
+                "file": "算法学习/二分解题法/大衣的旅行.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "成绩统计-真题 的大纲"
+              "title": "大衣的旅行 的大纲"
             }
           },
           {
@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0309b9c3fafe7aca",
+  "active": "230633fe552dd556",
   "lastOpenFiles": [
+    "算法学习/前缀和与差分一日通/成绩统计-真题.md",
     "算法学习/二分解题法/最少刷题数-真题.md",
     "算法学习/二分解题法/寻找黄金宝藏.md",
     "题型库.md",
