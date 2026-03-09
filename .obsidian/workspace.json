@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 537.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6915b287a0037d1",
+  "active": "559bdbae12ab2328",
   "lastOpenFiles": [
     "算法学习/二分解题法/最少刷题数-真题.md",
     "算法学习/二分解题法/寻找黄金宝藏.md",
