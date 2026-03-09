@@ -27,10 +27,10 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "算法学习/二分解题法/最少刷题数.py"
+                "file": "test.py"
               },
               "icon": "lucide-file",
-              "title": "最少刷题数"
+              "title": "test"
             }
           }
         ],
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 462.51103591918945
+    "width": 338.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/二分解题法/最少刷题数.py",
+                "file": "test.py",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "最少刷题数 的大纲"
+              "title": "test 的大纲"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "9385d0a2d7633ff8",
   "lastOpenFiles": [
-    "算法学习/二分解题法/最少刷题数-真题.md",
     "算法学习/二分解题法/最少刷题数.py",
+    "算法学习/二分解题法/最少刷题数-真题.md",
     "test.py",
     "算法学习/二分解题法/大衣的旅行.md",
     "算法学习/数论基础/找素数.py",
