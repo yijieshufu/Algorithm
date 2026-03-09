@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "D:/CondaData/envs/algo/python.exe",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "args": ["-NoExit", "-ExecutionPolicy", "Bypass", "-NoProfile", "-Command", "& 'C:\\Users\\Administrator\\miniconda3\\shell\\condabin\\conda-hook.ps1'; conda activate algo"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

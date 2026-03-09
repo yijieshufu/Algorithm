@@ -1,0 +1,8 @@
+# Python Code Generation Rules
+- Python Version: 3.7.3
+- I/O: import sys; input=sys.stdin.read().split(); it=iter(input);
+- Use next(it) for all inputs.
+- Strictly NO try-except blocks.
+- Arrays must be 1-indexed (e.g., list size n+1).
+- Keep variable names short and concise.
+不要这种 if not data: exit() 判断
