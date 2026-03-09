@@ -1,7 +1,5 @@
 import os
 import sys
-
-# 请在此输入您的代码
 res =0
 for i in range(1,20250413):
   a=str(i)
@@ -11,9 +9,6 @@ for i in range(1,20250413):
   if a_0 < 1 :continue
   a_5=a.count('5')
   if a_5 < 1 :continue
-  
   if a_2 >=2 and a_0 >=1 and a_5 >=1:
     res+=1
-  
-
 print(res)

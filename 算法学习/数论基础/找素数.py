@@ -14,6 +14,3 @@ for i in range(2,limit+1):
         break
     for j in range (i*i,limit+1,i):
       is_prime[j]=False
-
-
-
