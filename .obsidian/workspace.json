@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
+                "file": "算法学习/图论入门专练/建造国家.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "种桑果-树的遍历"
+              "title": "建造国家"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "建造国家",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
+                "file": "算法学习/图论入门专练/建造国家.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "种桑果-树的遍历 的反向链接列表"
+              "title": "建造国家 的反向链接列表"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
+                "file": "算法学习/图论入门专练/建造国家.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "种桑果-树的遍历 的大纲"
+              "title": "建造国家 的大纲"
             }
           },
           {
@@ -233,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -254,8 +254,10 @@
   },
   "active": "278f1844c4fa74a9",
   "lastOpenFiles": [
-    "算法学习/图论入门专练/种桑果-树的遍历.py",
+    "算法学习/贪心与思维专练/红黑树-真题.md",
+    "算法学习/图论入门专练/建造国家.md",
     "算法学习/图论入门专练/种桑果-树的遍历.md",
+    "算法学习/图论入门专练/种桑果-树的遍历.py",
     "算法学习/图论入门专练/联盟X.py",
     "算法学习/图论入门专练/联盟X.md",
     "算法学习/二分解题法/倒水-真题.py",
@@ -277,7 +279,6 @@
     "算法学习/暴力解题方法与搜索问题/黑白棋填充-真题.md",
     "算法学习/数学/线性代数与矩阵运算 & 数论/费马的模逆元之谜.md",
     "算法学习/数学/线性代数与矩阵运算 & 数论/费马的秘密遗物.md",
-    "算法学习/贪心与思维专练/红黑树-真题.md",
     "算法学习/贪心与思维专练/合并果子.md",
     "算法学习/贪心与思维专练/劲舞团.py",
     "算法学习/贪心与思维专练/排序算法-知识点 1.md",
