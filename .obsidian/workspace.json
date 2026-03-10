@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "种桑果-树的遍历"
             }
+          },
+          {
+            "id": "278f1844c4fa74a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "种桑果-树的遍历"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -219,11 +233,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,10 +252,11 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "c601c175c23b85d2",
+  "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
-    "算法学习/图论入门专练/联盟X.py",
+    "算法学习/图论入门专练/种桑果-树的遍历.py",
     "算法学习/图论入门专练/种桑果-树的遍历.md",
+    "算法学习/图论入门专练/联盟X.py",
     "算法学习/图论入门专练/联盟X.md",
     "算法学习/二分解题法/倒水-真题.py",
     "算法学习/图论入门专练/图论.md",
@@ -273,7 +288,6 @@
     "算法学习/贪心与思维专练/2025图形-真题.md",
     "算法学习/gcd与常见组合问题、计算几何基础/地雷阵-真题.md",
     "算法学习/gcd与常见组合问题、计算几何基础/宝石组合-真题.md",
-    "算法学习/gcd与常见组合问题、计算几何基础/2021 公约数.md",
-    "模板"
+    "算法学习/gcd与常见组合问题、计算几何基础/2021 公约数.md"
   ]
 }
