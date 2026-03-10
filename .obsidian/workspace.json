@@ -95,16 +95,30 @@
             "id": "e7134eafb2aa8d19",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "算法学习/图论入门专练/串门-树的直径.py"
+                "file": "算法学习/最短路算法/Dijkstra求最短路.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "串门-树的直径"
+              "title": "Dijkstra求最短路"
+            }
+          },
+          {
+            "id": "a32ad540d58cbd7f",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "算法学习/最短路算法/Dijkstra求最短路.py"
+              },
+              "icon": "lucide-file",
+              "title": "Dijkstra求最短路"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -177,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/图论入门专练/串门-树的直径.py",
+                "file": "算法学习/最短路算法/Dijkstra求最短路.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +201,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "串门-树的直径 的反向链接列表"
+              "title": "Dijkstra求最短路 的反向链接列表"
             }
           },
           {
@@ -239,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/图论入门专练/串门-树的直径.py",
+                "file": "算法学习/最短路算法/Dijkstra求最短路.py",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "串门-树的直径 的大纲"
+              "title": "Dijkstra求最短路 的大纲"
             }
           },
           {
@@ -278,10 +292,14 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "0309b9c3fafe7aca",
+  "active": "a32ad540d58cbd7f",
   "lastOpenFiles": [
-    "算法学习/图论入门专练/串门-树的直径.md",
+    "算法学习/最短路算法/Dijkstra求最短路.md",
+    "算法学习/最短路算法/Dijkstra求最短路.py",
     "算法学习/图论入门专练/串门-树的直径.py",
+    "算法学习/图论入门专练/串门-树的直径.md",
+    "算法学习/最短路算法",
+    "算法学习/图论入门专练/未命名.md",
     "模板/算法.md",
     "算法学习/图论入门专练/建造国家-真题.py",
     "算法学习/图论入门专练/建造国家-真题.md",
@@ -300,8 +318,6 @@
     "算法学习/二分解题法/冶炼金属-真题.md",
     "test.py",
     "2026-03-10.md",
-    "算法学习/暴力解题方法与搜索问题/黑白棋填充.py",
-    "算法学习/二分解题法/冶炼金属-真题.py",
     "算法模板.md",
     "算法学习/二分解题法/最少刷题数-真题.md",
     "算法学习/暴力解题方法与搜索问题/黑白棋填充-真题.md",
@@ -312,8 +328,6 @@
     "算法学习/贪心与思维专练/排序算法-知识点.md",
     "算法学习/贪心与思维专练/可分解的正整数-真题.md",
     "算法学习/贪心与思维专练/劲舞团-真题.md",
-    "算法学习/贪心与思维专练/抽奖-真题.md",
-    "算法学习/贪心与思维专练/2025图形-真题.md",
-    "算法学习/gcd与常见组合问题、计算几何基础/地雷阵-真题.md"
+    "算法学习/贪心与思维专练/抽奖-真题.md"
   ]
 }
