@@ -1,0 +1,4 @@
+/* 隐藏列表中的缩进指引线 */
+.markdown-source-view.mod-cm6 .cm-indent-guide {
+    display: none;
+}

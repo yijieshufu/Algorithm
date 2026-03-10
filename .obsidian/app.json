@@ -1,5 +1,7 @@
 {
   "readableLineLength": false,
   "showLineNumber": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showIndentGuide": true,
+  "smartIndentList": false
 }

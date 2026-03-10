@@ -153,7 +153,7 @@
       "double-quote-style": "\"\""
     },
     "remove-consecutive-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "remove-empty-list-markers": {
       "enabled": false
@@ -162,14 +162,14 @@
       "enabled": false
     },
     "remove-multiple-spaces": {
-      "enabled": false
+      "enabled": true
     },
     "strong-style": {
       "enabled": false,
       "style": "consistent"
     },
     "two-spaces-between-lines-with-content": {
-      "enabled": false,
+      "enabled": true,
       "line-break-indicator": "  "
     },
     "unordered-list-style": {
@@ -181,7 +181,7 @@
       "inner-new-lines": false
     },
     "consecutive-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "convert-spaces-to-tabs": {
       "enabled": false,
