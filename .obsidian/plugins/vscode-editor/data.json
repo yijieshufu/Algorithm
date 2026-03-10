@@ -20,7 +20,7 @@
   "semanticValidation": true,
   "syntaxValidation": true,
   "themeColor": "AUTO",
-  "fontSize": 16,
+  "fontSize": 19,
   "fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
   "fontLigatures": true
 }
