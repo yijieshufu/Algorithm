@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/暴力解题方法与搜索问题/黑白棋填充-真题.md",
+                "file": "算法学习/二分解题法/倒水-真题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "黑白棋填充-真题"
+              "title": "倒水-真题"
             }
           }
         ],
@@ -55,8 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.51103591918945
+    "width": 356.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/二分解题法/寻找黄金宝藏.md",
+                "file": "算法学习/二分解题法/倒水-真题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "寻找黄金宝藏 的反向链接列表"
+              "title": "倒水-真题 的反向链接列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/数学/线性代数与矩阵运算 & 数论/费马的模逆元之谜.md",
+                "file": "算法学习/二分解题法/倒水-真题.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "费马的模逆元之谜 的大纲"
+              "title": "倒水-真题 的大纲"
             }
           },
           {
@@ -191,11 +191,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,6 +212,19 @@
   },
   "active": "9385d0a2d7633ff8",
   "lastOpenFiles": [
+    "题型库.md",
+    "算法学习/二分解题法/冶炼金属-真题.md",
+    "test.py",
+    "2026-03-10.md",
+    "算法学习/二分解题法/倒水-真题.md",
+    "模板/算法.md",
+    "算法学习/暴力解题方法与搜索问题/黑白棋填充.py",
+    "算法学习/二分解题法/未命名.md",
+    "算法学习/二分解题法/冶炼金属-真题.py",
+    "算法学习/二分解题法/最少刷题数.py",
+    "算法模板.md",
+    "算法学习/二分解题法/最少刷题数-真题.md",
+    "算法学习/暴力解题方法与搜索问题/黑白棋填充-真题.md",
     "算法学习/数学/线性代数与矩阵运算 & 数论/费马的模逆元之谜.md",
     "算法学习/数学/线性代数与矩阵运算 & 数论/费马的秘密遗物.md",
     "算法学习/贪心与思维专练/红黑树-真题.md",
@@ -228,22 +241,11 @@
     "算法学习/gcd与常见组合问题、计算几何基础/2021 公约数.md",
     "算法学习/暴力解题方法与搜索问题/五子棋对弈.md",
     "算法学习/暴力解题方法与搜索问题/岛屿个数.md",
-    "算法学习/二分解题法/最少刷题数.py",
     "算法学习/二分解题法/肖恩的乘法表.md",
-    "算法学习/二分解题法/未命名.md",
-    "模板/算法.md",
     "模板",
-    "算法模板.md",
-    "test.py",
     "算法的思想/几何优化.md",
-    "算法的思想/差分数组.md",
-    "算法的思想/二分答案.md",
-    "题型库.md",
-    "算法学习/二分解题法/最少刷题数-真题.md",
-    "算法学习/二分解题法/大衣的旅行.md",
     "算法学习/数论基础/找素数.py",
     "算法学习/常见入门算法/2025.py",
-    "算法学习/常见入门算法/2025-真题.md",
     "未命名.base"
   ]
 }
