@@ -219,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -238,7 +238,7 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "c601c175c23b85d2",
+  "active": "f74a394f07ec9c4d",
   "lastOpenFiles": [
     "算法学习/图论入门专练/联盟X.md",
     "算法学习/图论入门专练/种桑果-树的遍历.md",
