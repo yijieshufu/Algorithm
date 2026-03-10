@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "倒水-真题"
             }
+          },
+          {
+            "id": "cb750a3b9ae8bd5c",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "算法学习/二分解题法/倒水-真题.py"
+              },
+              "icon": "lucide-file",
+              "title": "倒水-真题"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/二分解题法/倒水-真题.md",
+                "file": "算法学习/二分解题法/倒水-真题.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/二分解题法/倒水-真题.md",
+                "file": "算法学习/二分解题法/倒水-真题.py",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,13 +222,15 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "9385d0a2d7633ff8",
+  "active": "cb750a3b9ae8bd5c",
   "lastOpenFiles": [
+    "倒水-真题.ts",
+    "算法学习/二分解题法/倒水-真题.py",
+    "算法学习/二分解题法/倒水-真题.md",
     "题型库.md",
     "算法学习/二分解题法/冶炼金属-真题.md",
     "test.py",
     "2026-03-10.md",
-    "算法学习/二分解题法/倒水-真题.md",
     "模板/算法.md",
     "算法学习/暴力解题方法与搜索问题/黑白棋填充.py",
     "算法学习/二分解题法/未命名.md",
@@ -243,7 +257,6 @@
     "算法学习/暴力解题方法与搜索问题/岛屿个数.md",
     "算法学习/二分解题法/肖恩的乘法表.md",
     "模板",
-    "算法的思想/几何优化.md",
     "算法学习/数论基础/找素数.py",
     "算法学习/常见入门算法/2025.py",
     "未命名.base"
