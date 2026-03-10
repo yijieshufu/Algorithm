@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/图论入门专练/联盟X.md",
+                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "联盟X"
+              "title": "种桑果-树的遍历"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/图论入门专练/联盟X.md",
+                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "联盟X 的反向链接列表"
+              "title": "种桑果-树的遍历 的反向链接列表"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/图论入门专练/联盟X.md",
+                "file": "算法学习/图论入门专练/种桑果-树的遍历.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "联盟X 的大纲"
+              "title": "种桑果-树的遍历 的大纲"
             }
           },
           {
@@ -240,9 +240,9 @@
   },
   "active": "c601c175c23b85d2",
   "lastOpenFiles": [
+    "算法学习/图论入门专练/联盟X.md",
     "算法学习/图论入门专练/种桑果-树的遍历.md",
     "算法学习/图论入门专练/联盟X.py",
-    "算法学习/图论入门专练/联盟X.md",
     "算法学习/二分解题法/倒水-真题.py",
     "算法学习/图论入门专练/图论.md",
     "算法学习/二分解题法/未命名.md",
