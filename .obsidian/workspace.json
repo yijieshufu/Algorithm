@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "串门-树的直径"
             }
+          },
+          {
+            "id": "e7134eafb2aa8d19",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "算法学习/图论入门专练/串门-树的直径.py"
+              },
+              "icon": "lucide-file",
+              "title": "串门-树的直径"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/图论入门专练/串门-树的直径.md",
+                "file": "算法学习/图论入门专练/串门-树的直径.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/图论入门专练/串门-树的直径.md",
+                "file": "算法学习/图论入门专练/串门-树的直径.py",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -247,11 +259,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 414.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,10 +278,11 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "961668c074faee98",
+  "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
-    "模板/算法.md",
     "算法学习/图论入门专练/串门-树的直径.md",
+    "算法学习/图论入门专练/串门-树的直径.py",
+    "模板/算法.md",
     "算法学习/图论入门专练/建造国家-真题.py",
     "算法学习/图论入门专练/建造国家-真题.md",
     "算法学习/图论入门专练/种桑果-树的遍历.py",
@@ -289,7 +302,6 @@
     "2026-03-10.md",
     "算法学习/暴力解题方法与搜索问题/黑白棋填充.py",
     "算法学习/二分解题法/冶炼金属-真题.py",
-    "算法学习/二分解题法/最少刷题数.py",
     "算法模板.md",
     "算法学习/二分解题法/最少刷题数-真题.md",
     "算法学习/暴力解题方法与搜索问题/黑白棋填充-真题.md",
