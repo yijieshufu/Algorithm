@@ -167,16 +167,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/最短路算法/星际旅行-真题.md",
+                "file": "算法学习/最小生成树算法/点亮须弥.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "星际旅行-真题"
+              "title": "点亮须弥"
+            }
+          },
+          {
+            "id": "defa25e429e20da7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/最小生成树算法/蓝桥幼儿园.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "蓝桥幼儿园"
+            }
+          },
+          {
+            "id": "7cd9313e493f20c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/最小生成树算法/登山-真题  看不懂.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "登山-真题  看不懂"
+            }
+          },
+          {
+            "id": "71c6fac4625d32f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/最小生成树算法/电动车-真题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "电动车-真题"
+            }
+          },
+          {
+            "id": "cb63bcc5c02f6244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/最小生成树算法/吊坠-真题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "吊坠-真题"
+            }
+          },
+          {
+            "id": "5f4db417ab5082a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/最小生成树算法/爆破-真题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "爆破-真题"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -195,8 +265,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": true
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -233,7 +303,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.51103591918945
+    "width": 461.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -249,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法学习/最短路算法/星际旅行-真题.md",
+                "file": "算法学习/最小生成树算法/爆破-真题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +329,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "星际旅行-真题 的反向链接列表"
+              "title": "爆破-真题 的反向链接列表"
             }
           },
           {
@@ -311,13 +381,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/最短路算法/星际旅行-真题.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "星际旅行-真题 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -335,7 +404,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -350,42 +419,52 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "00b1490d14136188",
+  "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
-    "算法学习/最短路算法/星际旅行-真题.py",
-    "算法学习/最短路算法/星际旅行-真题.md",
-    "未命名.base",
-    "算法学习/最短路算法/染色时间-真题.py",
-    "算法学习/最短路算法/染色时间-真题.md",
-    "算法学习/最短路算法/未命名",
-    "算法学习/最短路算法/出差-真题.md",
-    "算法学习/最短路算法/出差-真题.py",
-    "算法学习/最短路算法/蓝桥公园.md",
-    "算法学习/最短路算法/蓝桥公园.py",
-    "算法学习/最短路算法/Dijkstra求最短路.py",
-    "算法学习/最短路算法/Dijkstra求最短路.md",
-    "算法学习/图论入门专练/串门-树的直径.py",
-    "算法学习/图论入门专练/串门-树的直径.md",
-    "算法学习/最短路算法",
-    "算法学习/图论入门专练/未命名.md",
-    "模板/算法.md",
-    "算法学习/图论入门专练/建造国家-真题.py",
-    "算法学习/图论入门专练/建造国家-真题.md",
-    "算法学习/图论入门专练/联盟X.md",
-    "算法学习/图论入门专练/种桑果-树的遍历 难.md",
-    "算法学习/贪心与思维专练/红黑树-真题.md",
-    "算法学习/图论入门专练/图论.md",
-    "算法学习/二分解题法/未命名.md",
-    "算法学习/二分解题法/倒水-真题.md",
+    "算法学习/前缀和与差分一日通/棋盘-真题.md",
+    "算法学习/前缀和与差分一日通/棋盘-真题.py",
+    "算法学习/前缀和与差分一日通/前缀和与差分.md",
+    "算法学习/前缀和与差分一日通/异或和之和-位运算-真题.md",
+    "算法学习/前缀和与差分一日通/异或和之和-位运算-真题.py",
+    "算法学习/前缀和与差分一日通/异或和-真题.py",
+    "算法学习/前缀和与差分一日通/异或和-真题.md",
+    "真题文件/README.md",
+    "真题文件/10-LeetCode/如何实现大顶堆效果.md",
+    "真题文件/10-LeetCode/如何创建使用小根堆.md",
+    "真题文件/10-LeetCode/后缀和（Suffix Sum）.md",
+    "真题文件/10-LeetCode/万能公式.md",
+    "真题文件/10-LeetCode/LeetCode295 数据流的中位数.md",
+    "真题文件/10-LeetCode/1015. 可被 K 整除的最小整数.md",
+    "真题文件/10-LeetCode/附件",
+    "真题文件/10-LeetCode",
+    "算法学习/前缀和与差分一日通/二维前缀和.md",
+    "真题文件/3-排序-字符串处理/封闭图形个数-真题.py",
+    "真题文件/3-排序-字符串处理/封闭图形个数-真题.md",
     "题型库.md",
-    "算法学习/二分解题法/冶炼金属-真题.md",
-    "2026-03-10.md",
-    "算法模板.md",
-    "算法学习/二分解题法/最少刷题数-真题.md",
-    "算法学习/暴力解题方法与搜索问题/黑白棋填充-真题.md",
-    "算法学习/数学/线性代数与矩阵运算 & 数论/费马的模逆元之谜.md",
-    "算法学习/数学/线性代数与矩阵运算 & 数论/费马的秘密遗物.md",
-    "算法学习/贪心与思维专练/合并果子.md",
-    "算法学习/贪心与思维专练/排序算法-知识点 1.md"
+    "move_zhenti_and_cleanup.py",
+    "真题文件/1-模拟-基础逻辑/工作时长.md",
+    "算法学习/贪心与思维专练/01串-真题.md",
+    "附件/Pasted image 20260125205153.png",
+    "附件/Pasted image 20260125205044.png",
+    "附件/Pasted image 20260125204908.png",
+    "附件/Pasted image 20260121225824.png",
+    "附件/Pasted image 20260122213359(1).png",
+    "附件/Pasted image 20260125155024.png",
+    "附件/Pasted image 20260122132517(1).png",
+    "附件/Pasted image 20260120160606(1).png",
+    "附件/Pasted image 20260120150229(1).png",
+    "附件/Pasted image 20260120150229.png",
+    "算法的思想/差分数组.md",
+    "真题文件/6-树-树状数组-统计DP/树的结点值.md",
+    "真题文件/2-数学-数论-数学构造/召唤数学精灵.md",
+    "真题文件/2-数学-数论-数学构造/砍柴.md",
+    "真题文件/2-数学-数论-数学构造/分糖果.md",
+    "真题文件/2-数学-数论-数学构造/01串.md",
+    "第十六届省赛/瞬移.md",
+    "第十六届省赛/树的结点值.md",
+    "第十六届省赛/排练.md",
+    "真题文件/9-模拟-贪心-其它",
+    "真题文件/8-搜索-BFS-图搜索",
+    "真题文件/7-几何-组合计数"
   ]
 }

@@ -7,7 +7,6 @@
 
 本质考查 **幂运算**。在数学中，$\sqrt[b]{a}$ 等价于 $a$ 的 $\frac{1}{b}$ 次方。
 
-# 代码
 ```python
 import os
 import sys

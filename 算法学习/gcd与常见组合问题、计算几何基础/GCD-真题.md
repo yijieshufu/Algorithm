@@ -24,21 +24,9 @@ $$
 1. **差值** $D = |b-a|$ 是 $\gcd$ 的天花板。
 2. 我们要让 $a+k$ 变成 $D$ 的倍数。
 3. 利用取模运算 `a % D` 算出弟弟“多出了”多少，然后用 `D - 多出的` 算出要补多少。
-# 代码
-```python
-import os
-import sys
-it=iter(sys.stdin.read().split())
-a = int(next(it))
-b = int(next(it))
-if a > b: # b最大
-  a,b=b,a
-diff = b - a
-rem = a % diff #  计算 a 距离上一个 D 的倍数多出了多少 (余数)
-if rem == 0:
-  print(diff)
-else:
-  print(diff-rem)
-```
+
+
+
+
 
 # 笔记

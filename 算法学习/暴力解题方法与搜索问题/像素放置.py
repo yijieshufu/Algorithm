@@ -1,0 +1,40 @@
+import sys
+it = iter(sys.stdin.read().split())
+n,m=int(next(it)),int(next(it))
+g = [next(it)for _ in range(n)]
+# 答案矩阵 n*m
+ans = [[0]*m for _ in range(n)]
+todo = [[[] for _ in range(m)]for _ in range(n)]
+# 预处理 存入 要检查的点
+for i in range(n):
+  for j in range(m):
+    if g[i][j] !='_':
+      lc,lr=min(n-1,i+1),min(m-1,j+1)
+      todo[lc][lr].append((i,j))
+# DFS: p是格子数
+def DFS(p):
+  # 判断 p 是否达到终点
+  if p ==n*m:
+    #按行打印
+    for row in ans:print("".join(map(str,row)))
+    return True
+  # 由p转换为r,c
+  r=p//m;c=p%m
+  # 开始用v填数（0,1）
+  for v in(0,1):
+    # ans 记录答案
+    ans[r][c]=v
+    #标记状态位置
+    ok = True
+    # 拿出todo要检查的位置
+    for tr,tc in todo[r][c]:
+      # s 记录 以他为中心填入的1 求和
+      s = sum(ans[x][y] for x in range(tr-1,tr+2) for y in range(tc-1,tc+2) if 0<=x<n and 0<=y<m )
+      # 与g判断 和 对不对 不对 标记为False 返回
+      if s != int(g[tr][tc]):
+        ok = False;break
+    # 标记正确 判断 下一个格子
+    if ok and DFS(p+1):return True
+  # 返回false
+  return False
+DFS(0)

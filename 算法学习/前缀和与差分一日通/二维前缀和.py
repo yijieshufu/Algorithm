@@ -1,0 +1,21 @@
+import os
+import sys
+it = iter(sys.stdin.read().split())
+n = int(next(it))
+m = int(next(it))
+q = int(next(it))
+s = [[0]* (m+1) for _ in range(n+1)]
+for i in range(1, n + 1):
+  for j in range(1, m + 1):
+    val = int(next(it))
+    s[i][j]=s[i-1][j]+s[i][j-1]-s[i-1][j-1]+val # 二维前缀和
+results = []
+for _ in range(q):
+    x1 = int(next(it))
+    y1 = int(next(it))
+    x2 = int(next(it))
+    y2 = int(next(it))
+    # 二维区间计算
+    res = s[x2][y2] - s[x1-1][y2] - s[x2][y1-1] + s[x1-1][y1-1] 
+    results.append(str(res))
+sys.stdout.write("\n".join(results)+"\n")

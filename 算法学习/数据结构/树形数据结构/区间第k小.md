@@ -123,29 +123,10 @@ root, tot = [0] * 200005, 0
 
 ### 可持久化线段树（主席树）写操作
 
-```python
-def upd(prev, l, r, pos): # pos离散化后的排名
-    global tot
-    tot += 1           # 计数器加1，分配一个新的节点编号
-    curr = tot         # 记录当前新节点的编号
-    
-    # 【关键】先复制旧节点的全部信息
-    # ls:左儿子, rs:右儿子, cnt:该区间内数字个数
-    ls[curr], rs[curr], cnt[curr] = ls[prev], rs[prev], cnt[prev] + 1
-    
-    if l == r:         # 到达叶子节点（值域区间缩小到了一个点）
-        return curr    # 递归终点，返回当前节点编号
-    
-    mid = (l + r) // 2
-    if pos <= mid:     # 待插入的数在左半边
-        # 递归更新左子树，并将新生成的左儿子编号连在 curr 上
-        ls[curr] = upd(ls[prev], l, mid, pos)
-    else:              # 待插入的数在右半边
-        # 递归更新右子树，并将新生成的右儿子编号连在 curr 上
-        rs[curr] = upd(rs[prev], mid + 1, r, pos)
-    
-    return curr        # 将当前新节点的编号返回给上一层父节点
-```
+
+
+
+
 
 ### **区间第 $k$ 小**问题的核心查询
 ```Python
@@ -194,4 +175,3 @@ for _ in range(q):
     out.append(str(u[idx - 1]))
 print("\n".join(out))
 ```
-
