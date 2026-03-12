@@ -1,30 +1,32 @@
-import os
 import sys
 from collections import deque
 
-# 请在此输入您的代码
+# 1. 极简 I/O 起手式
 it = iter(sys.stdin.read().split())
-n = int(next(it))
-m = int(next(it))
+n, m = int(next(it)), int(next(it))
 g = [[int(next(it)) for _ in range(m)] for _ in range(n)]
-x1= int(next(it))-1;y1= int(next(it))-1;x2= int(next(it))-1;y2= int(next(it))-1
+# 坐标转 0-indexed [块 1]
+x1, y1 = int(next(it))-1, int(next(it))-1
+x2, y2 = int(next(it))-1, int(next(it))-1
+
+# 2. 核心状态定义 [块 1]
 dist = [[-1] * m for _ in range(n)]
-queue = deque([(x1,y1)])
-dist[x1][y1]=0
-found= False
-dx =[-1,1,0,0]
-dy =[0,0,1,-1]
-while queue:
-  cur_x,cur_y=queue.popleft()
-  if cur_x==x2 and cur_y==y2:
-    found=True
-    print(dist[cur_x][cur_y])
-    break
-  for i in range(4):
-    nx=cur_x+dx[i];ny=cur_y+dy[i]
-    if 0<=nx<=n-1 and 0<=ny<=m-1:
-      if g[nx][ny]==1 and dist[nx][ny]==-1 :
-        dist[nx][ny]= dist[cur_x][cur_y]+1
-        queue.append((nx,ny))
-if not found:
-  print(-1)
+q = deque([(x1, y1)])
+dist[x1][y1] = 0
+dx, dy = [-1, 1, 0, 0], [0, 0, 1, -1]
+ans = -1
+
+# 3. BFS 主循环 [块 2, 3]
+while q:
+    r, c = q.popleft()
+    if r == x2 and c == y2:
+        ans = dist[r][c]
+        break
+    for i in range(4):
+        nr, nc = r + dx[i], c + dy[i]
+        # 边界与合法性检查 [块 3]
+        if 0 <= nr < n and 0 <= nc < m and g[nr][nc] == 1 and dist[nr][nc] == -1:
+            dist[nr][nc] = dist[r][c] + 1
+            q.append((nr, nc))
+
+print(ans)

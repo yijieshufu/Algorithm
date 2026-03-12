@@ -1,16 +1,25 @@
-import os
 import sys
-from collections import Counter
+
+# 输入流初始化
 it = iter(sys.stdin.read().split())
 n = int(next(it))
-a = [int(next(it)) for _ in range(n)]
-c = Counter(a)
-ans =0
-now = 1
-for i in range(1,n): # i代表的是数字
-  if c[i]>0:
-    now*=c[i] #关键点
-    ans+=now
-  else:
-    break
-print(ans)
+
+# 认知块 1：定义路径与状态位
+path = [0] * n
+st = [False] * (n + 1)
+
+def dfs(u):
+    # 认知块 3：递归终止，输出结果
+    if u == n:
+        print(*(path))
+        return
+    # 认知块 2：按 1~n 顺序枚举，确保字典序
+    for i in range(1, n + 1):
+        if not st[i]:
+            path[u] = i
+            st[i] = True   # 标记使用
+            dfs(u + 1)     # 向下递归
+            st[i] = False  # 恢复现场 (回溯关键)
+
+# 执行入口
+dfs(0)
