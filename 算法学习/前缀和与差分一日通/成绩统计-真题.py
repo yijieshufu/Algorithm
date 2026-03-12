@@ -6,7 +6,6 @@ n = int(next(it))
 k = int(next(it))
 t = int(next(it))
 a = [int(next(it)) for _ in range(n)]
-
 def check(x):
   sub = sorted(a[:x]) # 只排序前x个
   curr_sum = 0;curr_sq_sum=0
@@ -25,7 +24,6 @@ def check(x):
     if k * curr_sq_sum - curr_sum * curr_sum < target:
         return True
   return False
-
 # 二分法
 ans = -1
 low = k 

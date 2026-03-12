@@ -237,16 +237,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/最小生成树算法/爆破-真题.md",
+                "file": "算法学习/常见库函数与工具/排序模版练习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "爆破-真题"
+              "title": "排序模版练习"
+            }
+          },
+          {
+            "id": "93bb3192e315f275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/常见库函数与工具/哈希表的实现.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "哈希表的实现"
+            }
+          },
+          {
+            "id": "7f99658e1aa4cc8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/常见库函数与工具/小蓝的图书馆.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "小蓝的图书馆"
+            }
+          },
+          {
+            "id": "3506539a5a94b81f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/常见库函数与工具/字符统计-真题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "字符统计-真题"
+            }
+          },
+          {
+            "id": "4cfc9b4ce364e58d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "真题文件/3-排序-字符串处理/封闭图形个数-真题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "封闭图形个数-真题"
+            }
+          },
+          {
+            "id": "e05a76fa1a615f17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习/暴力解题方法与搜索问题/N皇后.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "N皇后"
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -278,7 +348,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "建造国家",
+                "query": "封闭图形个数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -303,7 +373,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.51103591918945
+    "width": 376.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -381,12 +451,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "算法学习/暴力解题方法与搜索问题/N皇后.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "N皇后 的大纲"
             }
           },
           {
@@ -421,29 +492,41 @@
   },
   "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
-    "算法学习/前缀和与差分一日通/棋盘-真题.md",
-    "算法学习/前缀和与差分一日通/棋盘-真题.py",
-    "算法学习/前缀和与差分一日通/前缀和与差分.md",
-    "算法学习/前缀和与差分一日通/异或和之和-位运算-真题.md",
-    "算法学习/前缀和与差分一日通/异或和之和-位运算-真题.py",
-    "算法学习/前缀和与差分一日通/异或和-真题.py",
-    "算法学习/前缀和与差分一日通/异或和-真题.md",
+    "算法学习/暴力解题方法与搜索问题/N皇后.py",
+    "算法学习/暴力解题方法与搜索问题/N皇后.md",
+    "算法学习/常见库函数与工具/冷热数据队列-真题.py",
+    "算法学习/常见库函数与工具/冷热数据队列-真题.md",
+    "算法学习/常见库函数与工具/封闭图形个数-真题.md",
+    "算法学习/常见库函数与工具/封闭图形个数-真题.py",
+    "真题文件/3-排序-字符串处理/填充.md",
+    "真题文件/3-排序-字符串处理/最大数字.md",
+    "算法专题/博弈论与决策类 DP (Game Theory & Decision-making DP)/公平组合博弈 (Impartial Games)重点/LeetCode 292. Nim 游戏.md",
+    "算法专题/博弈论与决策类 DP (Game Theory & Decision-making DP)/公平组合博弈 (Impartial Games)重点/LeetCode 1025. 除数博弈 (Divisor Game).md",
+    "算法学习/常见库函数与工具/原料采购-真题.md",
+    "算法学习/常见库函数与工具/原料采购-真题.py",
+    "算法学习/常见库函数与工具/整数删除-真题.py",
+    "算法学习/常见库函数与工具/整数删除-真题.md",
+    "模板/算法.md",
+    "算法学习/常见库函数与工具/字符统计-真题.md",
+    "算法学习/常见库函数与工具/字符统计-真题.py",
+    "算法学习/常见库函数与工具/未命名.md",
+    "算法学习/常见库函数与工具/小蓝的图书馆.py",
+    "算法学习/常见库函数与工具/小蓝的图书馆.md",
+    "算法学习/前缀和与差分一日通/成绩统计-真题.py",
+    "算法学习/常见库函数与工具/哈希表的实现.py",
+    "算法学习/常见库函数与工具/哈希表的实现.md",
+    "算法学习/常见库函数与工具/排序模版练习.py",
+    "算法学习/常见库函数与工具/排序模版练习.md",
+    "算法学习/前缀和与差分一日通/成绩统计-真题.md",
+    "算法学习/前缀和与差分一日通/挖矿-真题.md",
+    "算法学习/前缀和与差分一日通/大学里的树木要维护.md",
+    "算法学习/前缀和与差分一日通/商品库存管理-真题.md",
     "真题文件/README.md",
-    "真题文件/10-LeetCode/如何实现大顶堆效果.md",
-    "真题文件/10-LeetCode/如何创建使用小根堆.md",
-    "真题文件/10-LeetCode/后缀和（Suffix Sum）.md",
-    "真题文件/10-LeetCode/万能公式.md",
-    "真题文件/10-LeetCode/LeetCode295 数据流的中位数.md",
-    "真题文件/10-LeetCode/1015. 可被 K 整除的最小整数.md",
-    "真题文件/10-LeetCode/附件",
-    "真题文件/10-LeetCode",
-    "算法学习/前缀和与差分一日通/二维前缀和.md",
-    "真题文件/3-排序-字符串处理/封闭图形个数-真题.py",
-    "真题文件/3-排序-字符串处理/封闭图形个数-真题.md",
-    "题型库.md",
-    "move_zhenti_and_cleanup.py",
-    "真题文件/1-模拟-基础逻辑/工作时长.md",
-    "算法学习/贪心与思维专练/01串-真题.md",
+    "真题文件/5-图论-Trie-位运算/2421. 好路径的数目.md",
+    "算法学习/前缀和与差分一日通/子串简写-真题.md",
+    "真题文件/9-模拟-贪心-其它/486. 预测赢家 (Predict the Winner).md",
+    "真题文件/9-模拟-贪心-其它/1406. 石子游戏 III (Stone Game III).md",
+    "真题文件/9-模拟-贪心-其它/1140.石子游戏 II.md",
     "附件/Pasted image 20260125205153.png",
     "附件/Pasted image 20260125205044.png",
     "附件/Pasted image 20260125204908.png",
@@ -453,18 +536,6 @@
     "附件/Pasted image 20260122132517(1).png",
     "附件/Pasted image 20260120160606(1).png",
     "附件/Pasted image 20260120150229(1).png",
-    "附件/Pasted image 20260120150229.png",
-    "算法的思想/差分数组.md",
-    "真题文件/6-树-树状数组-统计DP/树的结点值.md",
-    "真题文件/2-数学-数论-数学构造/召唤数学精灵.md",
-    "真题文件/2-数学-数论-数学构造/砍柴.md",
-    "真题文件/2-数学-数论-数学构造/分糖果.md",
-    "真题文件/2-数学-数论-数学构造/01串.md",
-    "第十六届省赛/瞬移.md",
-    "第十六届省赛/树的结点值.md",
-    "第十六届省赛/排练.md",
-    "真题文件/9-模拟-贪心-其它",
-    "真题文件/8-搜索-BFS-图搜索",
-    "真题文件/7-几何-组合计数"
+    "附件/Pasted image 20260120150229.png"
   ]
 }

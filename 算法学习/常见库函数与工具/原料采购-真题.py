@@ -25,8 +25,7 @@ for _ in range(n):
       a_val,b_cnt = heapq.heappop(h) #拿出堆顶的 来换
       can_replace = min(b_cnt,b) # 能换多少
       sum_p += (a+a_val)*can_replace #计算差值
-      b_cnt-=can_replace
-      b-=can_replace
+      b_cnt-=can_replace;b-=can_replace
       replace+=can_replace
       if b_cnt>0:
         heapq.heappush(h,[a_val,b_cnt])

@@ -3,5 +3,6 @@
   "showLineNumber": true,
   "promptDelete": false,
   "showIndentGuide": true,
-  "smartIndentList": false
+  "smartIndentList": false,
+  "alwaysUpdateLinks": true
 }
