@@ -55,3 +55,27 @@ $$
 - **第二步（求前缀）**：一叠即成，算出 $G[i]$ 数组。
 - **第三步（求和）**：一层循环遍历 $s$，利用 $d[s] \times G[L-s]$ 算出结果。
 ---
+
+## 代码
+
+```python
+import os
+import sys
+it = iter(sys.stdin.read().split())
+L = int(next(it))
+if L < 2:print(0)
+else:
+  # 计算约数的个数
+  d = [0]*(L+1)
+  for i in range(1,L+1):
+    for j in range(i,L+1,i):
+      d[j]+=1
+  # 计算约数前缀的个数
+  G = [0]*(L+1)
+  for i in range(1,L+1):
+    G[i]=G[i-1]+d[i]
+  ans = 0
+  for s in range(1,L):
+    ans += d[s] * G[L - s]
+  print(ans)
+```

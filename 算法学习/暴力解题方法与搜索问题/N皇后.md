@@ -27,3 +27,27 @@ def dfs(step):
     当 `dfs` 递归返回时，必须将 `col`、`dg`、`udg` 的标记重置为 `False`，以便进行同层其他分支的尝试。
 
 **行深列广，斜线定值**：每一行递归深入，每一列循环尝试，利用 `r+c` 和 `r-c+n` 的唯一性瞬间判定斜线冲突。
+
+## 代码
+
+```python
+import sys
+it = iter(sys.stdin.read().split())
+n = int(next(it))
+col = [0] * 20   # 块1：列标记
+dg = [0] * 40    # 块1：正对角线 r+c
+udg = [0] * 40   # 块1：反对角线 r-c+n
+ans = 0
+def dfs(u):
+    global ans
+    if u == n:   # 块3：到达边界
+        ans += 1
+        return
+    for i in range(n): # 块2：遍历当前行的每一列
+        if not col[i] and not dg[u+i] and not udg[u-i+n]:
+            col[i] = dg[u+i] = udg[u-i+n] = 1 # 标记占用
+            dfs(u + 1)
+            col[i] = dg[u+i] = udg[u-i+n] = 0 # 块3：回溯还原
+dfs(0)
+print(ans)
+```
