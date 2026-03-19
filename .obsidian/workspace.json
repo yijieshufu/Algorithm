@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.51103591918945
+    "width": 267.5
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -192,11 +192,12 @@
       "command-palette:打开命令面板": true,
       "bases:新建数据库": true,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:新建代码文件": true
+      "vscode-editor:新建代码文件": false
     }
   },
-  "active": "3db3a063f6e4c809",
+  "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
+    "test.py",
     "算法学习/数据结构/树形数据结构/区间第k小.md",
     "算法学习/数据结构/树形数据结构/森林的最大美丽值.md",
     "算法学习/数据结构/树形数据结构/线段树哈希.md",
@@ -223,11 +224,9 @@
     "算法学习/前缀和与差分一日通/棋盘-真题.md",
     "算法学习/贪心与思维专练/平均-真题.md",
     "算法学习/贪心与思维专练/三国游戏-真题.md",
-    "算法学习/二分解题法/倒水-真题.md",
     "test.py~",
     "未命名.canvas",
     "真题文件/1-模拟-基础逻辑/劲舞团.py",
-    "test.py",
     "真题文件/1-模拟-基础逻辑/result.txt",
     "真题文件/1-模拟-基础逻辑/log.txt",
     "build_tixingku.py",
