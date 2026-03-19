@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/二分解题法/寻找黄金宝藏.md",
+                "file": "算法学习/二分解题法/倒水-真题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "寻找黄金宝藏"
+              "title": "倒水-真题"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/二分解题法/寻找黄金宝藏.md",
+                "file": "算法学习/二分解题法/倒水-真题.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "寻找黄金宝藏 的大纲"
+              "title": "倒水-真题 的大纲"
             }
           },
           {
@@ -197,10 +197,10 @@
   },
   "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
+    "算法学习/二分解题法/寻找黄金宝藏.md",
     "算法学习/二分解题法/肖恩的乘法表.md",
     "test.py",
     "未命名.md",
-    "算法学习/二分解题法/寻找黄金宝藏.md",
     "算法学习/二分解题法/卡牌-真题.md",
     "算法学习/常见入门算法/肖恩的n次根.md",
     "算法学习/动态规划/树形DP/树上选点-真题 难.md",
