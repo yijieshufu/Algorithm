@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.51103591918945
+    "width": 219.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +195,12 @@
       "vscode-editor:新建代码文件": true
     }
   },
-  "active": "23a7b6029932bb16",
+  "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
+    "未命名.md",
+    "算法学习/二分解题法/肖恩的乘法表.md",
     "test.py",
     "算法学习/二分解题法/寻找黄金宝藏.md",
-    "算法学习/二分解题法/肖恩的乘法表.md",
     "算法学习/二分解题法/卡牌-真题.md",
     "算法学习/常见入门算法/肖恩的n次根.md",
     "算法学习/动态规划/树形DP/树上选点-真题 难.md",
