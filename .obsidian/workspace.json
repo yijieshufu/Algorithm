@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ed6c13efb6785a05",
+        "id": "291bcf474798d0db",
         "type": "tabs",
         "children": [
           {
-            "id": "23a7b6029932bb16",
+            "id": "3738cbb084cbf0c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.51103591918945
+    "width": 323.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -176,11 +176,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 370.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +195,11 @@
       "vscode-editor:新建代码文件": true
     }
   },
-  "active": "0309b9c3fafe7aca",
+  "active": "3738cbb084cbf0c6",
   "lastOpenFiles": [
-    "未命名.md",
-    "算法学习/二分解题法/肖恩的乘法表.md",
     "test.py",
+    "算法学习/二分解题法/肖恩的乘法表.md",
+    "未命名.md",
     "算法学习/二分解题法/寻找黄金宝藏.md",
     "算法学习/二分解题法/卡牌-真题.md",
     "算法学习/常见入门算法/肖恩的n次根.md",
@@ -223,7 +223,6 @@
     "算法学习/动态规划/线性动态规划（Linear DP）.md",
     "算法学习/数论基础/组合数.md",
     "算法学习/数据结构/树形数据结构/区间第k小.md",
-    "算法学习/数据结构/树形数据结构/森林的最大美丽值.md",
     "算法学习/数据结构/树形数据结构/求面积和.py",
     "test.py~",
     "未命名.canvas",
