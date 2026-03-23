@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/最短路算法/Floyd 解决 多源最短路径.md",
+                "file": "算法学习/直播笔记.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Floyd 解决 多源最短路径"
+              "title": "直播笔记"
             }
           }
         ]
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#染色时间-真题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.51103591918945
+    "width": 405.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -89,80 +90,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23587998f510ca54",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "算法学习/最小生成树算法/爆破-真题.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "爆破-真题 的反向链接列表"
-            }
-          },
-          {
-            "id": "29897f3e585153f9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "算法学习/二分解题法/寻找黄金宝藏.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "寻找黄金宝藏 的出链列表"
-            }
-          },
-          {
-            "id": "917981caab5f94c8",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "4174160f34713cbb",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
             "id": "f74a394f07ec9c4d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/最短路算法/Floyd 解决 多源最短路径.md",
+                "file": "算法学习/直播笔记.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Floyd 解决 多源最短路径 的大纲"
+              "title": "直播笔记 的大纲"
             }
           },
           {
@@ -176,11 +115,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 298.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,35 +134,35 @@
       "vscode-editor:新建代码文件": true
     }
   },
-  "active": "3738cbb084cbf0c6",
+  "active": "0309b9c3fafe7aca",
   "lastOpenFiles": [
-    "算法学习/最短路算法/Dijkstra求单源最短路.md",
-    "算法学习/最短路算法/Floyd 解决 多源最短路径.md",
-    "算法学习/二分解题法/管道-真题.md",
-    "算法学习/二分解题法/大衣的旅行.md",
-    "算法学习/二分解题法/最少刷题数-真题.md",
-    "算法学习/二分解题法/卡牌-真题.md",
-    "算法学习/二分解题法/肖恩的乘法表.md",
-    "算法学习/二分解题法/冶炼金属-真题.md",
-    "算法学习/二分解题法/寻找黄金宝藏.md",
-    "算法学习/二分解题法/倒水-真题.md",
-    "test.py",
-    "未命名.md",
-    "算法学习/常见入门算法/肖恩的n次根.md",
-    "算法学习/动态规划/树形DP/树上选点-真题 难.md",
-    "算法学习/动态规划/树形DP/蓝桥舞会.md",
-    "算法学习/动态规划/树形DP/树的着色问题.md",
-    "算法学习/动态规划/树形DP/树的最大独立集.md",
-    "算法学习/动态规划/动态规划的基础/保险箱-真题.md",
-    "算法学习/动态规划/动态规划的基础/松散子序列-真题.md",
-    "算法学习/数学/组合数学/小新的三元组.md",
-    "算法学习/数学/组合数学/拓扑排序计数？！.md",
-    "算法学习/字符串/前缀数量大比拼.md",
-    "算法学习/字符串/诗歌双联 难.md",
-    "算法学习/字符串/小蓝的神秘图书馆.md",
+    "算法学习/直播/未命名.md",
+    "算法学习/直播笔记.md",
+    "算法学习/直播/第一次直播.md",
     "算法学习/字符串/你也喜欢幸运字符串吗？.md",
-    "算法学习/字符串/boarder.md",
-    "算法学习/动态规划/动态规划的基础/破损的楼梯.md",
+    "算法学习/字符串/next数组+子串个数.md",
+    "算法学习/贪心与思维专练/相邻差绝对值之和最小化.md",
+    "算法学习/贪心与思维专练/最短距离-真题.md",
+    "算法学习/贪心与思维专练/分类贪心与优先级匹配.md",
+    "算法学习/贪心与思维专练/翻转-真题.md",
+    "算法学习/搜索+图/Floyd 解决 多源最短路径.md",
+    "算法学习/搜索+图/BFS(连通分量 取大值).md",
+    "算法学习/搜索+图/二叉树遍历（DFS） 求权重.md",
+    "算法学习/搜索+图/permutations 排列组合.md",
+    "算法学习/树/并查集+find()基础和路径压缩.md",
+    "算法学习/树/树的直径.md",
+    "算法学习/树/连通分量性质.md",
+    "算法学习/树/种桑果-树的遍历 难.md",
+    "算法学习/树/并查集+连通分量的大小.md",
+    "算法学习/Kruskal最小生成树算法/prim.md",
+    "算法学习/Kruskal最小生成树算法/公共子串+Kruskal.md",
+    "算法学习/Kruskal最小生成树算法/并查集.md",
+    "算法学习/Kruskal最小生成树算法/Kruskal+并查集+最小生成树.md",
+    "算法学习/Kruskal最小生成树算法/登山-真题  看不懂.md",
+    "算法学习/Kruskal最小生成树算法/最小生成树（MST）解决“瓶颈问题”.md",
+    "算法学习/二分解题法/寻找黄金宝藏.md",
+    "算法学习/二分解题法/冶炼金属-真题.md",
+    "test.py",
     "算法学习/数据结构/树形数据结构/求面积和.py",
     "test.py~",
     "未命名.canvas",

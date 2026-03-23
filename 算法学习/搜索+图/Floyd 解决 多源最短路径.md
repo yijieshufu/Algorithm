@@ -46,13 +46,8 @@ for k in range(1, n + 1):
             # 状态转移方程: dist[i][j] = min(直接走, 经过 k 绕路走)
             if dist[i][k] + dist[k][j] < dist[i][j]:
                 dist[i][j] = dist[i][k] + dist[k][j]
-
-# --- 4. 判定与输出 (Output) ---
-# ans = dist[st][ed]
-# print(ans if ans != inf else -1)
 ```
 ## 代码
-
 ```python
 import sys
 # 读入数据
@@ -67,15 +62,15 @@ for i in range(1,n+1):
     f[i][i]=0
 # 存入边
 for _ in range(m):
-    u,v,w = map(int,next(it))
+    u,v,w = int(next(it)),int(next(it)),int(next(it))
     if w < f[u][v]: 
         f[u][v]=f[v][u]=w
 # Floyd 算法
 for k in range(1,n+1):
-    fk = f[k]
+    fk = f[k] # k行
     for i in range(1,n+1):
-        fi = f[i]
-        if fi[k]==inf :continue
+        fi = f[i] # i行
+        if fi[k]==inf :continue # i到k的
         fik = fi[k]
         for j in range(1,n+1):
             if fik+fk[j]<fi[j]:
