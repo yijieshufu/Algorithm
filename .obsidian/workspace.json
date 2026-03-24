@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/异或和-真题.md",
+                "file": "算法学习/前缀和与差分一日通/二维前缀和.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "异或和-真题"
+              "title": "二维前缀和"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.51103591918945
+    "width": 383.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/异或和-真题.md",
+                "file": "算法学习/前缀和与差分一日通/二维前缀和.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "异或和-真题 的大纲"
+              "title": "二维前缀和 的大纲"
             }
           },
           {
@@ -119,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -136,6 +136,8 @@
   },
   "active": "3738cbb084cbf0c6",
   "lastOpenFiles": [
+    "算法学习/前缀和与差分一日通/异或和.md",
+    "算法学习/前缀和与差分一日通/棋盘-真题.md",
     "算法学习/前缀和与差分一日通/二维前缀和.md",
     "算法学习/前缀和与差分一日通/一维前缀和.md",
     "算法学习/前缀和与差分一日通/前缀和与差分.md",
@@ -160,8 +162,6 @@
     "算法学习/时空复杂度与递归递推/神奇生物的繁衍-递推.md",
     "算法学习/时空复杂度与递归递推/数正方形-递推-真题.md",
     "算法学习/时空复杂度与递归递推/斐波那契数列-递推.md",
-    "算法学习/时空复杂度与递归递推/数正方形-递推.md",
-    "算法学习/gcd与常见组合问题、计算几何基础/2021 公约数.md",
     "test.py",
     "算法学习/数据结构/树形数据结构/求面积和.py",
     "test.py~",
