@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/前缀和与差分.md",
+                "file": "算法学习/gcd与常见组合问题、计算几何基础/GCD-真题.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "前缀和与差分"
+              "title": "GCD-真题"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945
+    "width": 358.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -113,68 +113,6 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "56488d2a45734767",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "算法学习/前缀和与差分一日通/二维差分.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "二维差分 的反向链接列表"
-            }
-          },
-          {
-            "id": "dcbda53eff70a9fc",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "算法学习/前缀和与差分一日通/二维差分.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "二维差分 的出链列表"
-            }
-          },
-          {
-            "id": "bed80a0c2045bc66",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "21471f848ec95dfc",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
           }
         ],
         "currentTab": 1
@@ -198,6 +136,9 @@
   },
   "active": "3738cbb084cbf0c6",
   "lastOpenFiles": [
+    "算法学习/时空复杂度与递归递推/斐波那契数列-递推.md",
+    "算法学习/时空复杂度与递归递推/神奇生物的繁衍-递推.md",
+    "算法学习/前缀和与差分一日通/前缀和与差分.md",
     "算法学习/前缀和与差分一日通/二维差分.md",
     "算法学习/前缀和与差分一日通/双指针+贪心.md",
     "算法学习/前缀和与差分一日通/异或和.md",
@@ -210,9 +151,6 @@
     "算法学习/二分解题法/大衣的旅行.md",
     "算法学习/二分解题法/最少刷题数-真题.md",
     "算法学习/二分解题法/管道-真题.md",
-    "算法学习/前缀和与差分一日通/前缀和与差分.md",
-    "算法学习/时空复杂度与递归递推/神奇生物的繁衍-递推.md",
-    "算法学习/时空复杂度与递归递推/斐波那契数列-递推.md",
     "算法学习/树/并查集+连通分量的大小.md",
     "算法学习/树/种桑果-树的遍历 难.md",
     "算法学习/数论基础/组合数.md",
