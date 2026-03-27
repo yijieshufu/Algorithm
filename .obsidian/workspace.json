@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/二维差分.md",
+                "file": "算法学习/前缀和与差分一日通/前缀和与差分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "二维差分"
+              "title": "前缀和与差分"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "拼好数",
+                "query": "棋盘",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.51103591918945
+    "width": 409.51103591918945
   },
   "right": {
     "id": "590f3923274ca12e",
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法学习/前缀和与差分一日通/二维差分.md",
+                "file": "算法学习/二分解题法/最少刷题数-真题.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "二维差分 的大纲"
+              "title": "最少刷题数-真题 的大纲"
             }
           },
           {
@@ -112,6 +112,68 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "56488d2a45734767",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "算法学习/前缀和与差分一日通/二维差分.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "二维差分 的反向链接列表"
+            }
+          },
+          {
+            "id": "dcbda53eff70a9fc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "算法学习/前缀和与差分一日通/二维差分.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "二维差分 的出链列表"
+            }
+          },
+          {
+            "id": "bed80a0c2045bc66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "21471f848ec95dfc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -136,32 +198,35 @@
   },
   "active": "3738cbb084cbf0c6",
   "lastOpenFiles": [
-    "算法学习/前缀和与差分一日通/异或和.md",
-    "算法学习/前缀和与差分一日通/一维前缀和.md",
-    "算法学习/前缀和与差分一日通/二维前缀和.md",
-    "算法学习/前缀和与差分一日通/前缀和与差分.md",
-    "算法学习/前缀和与差分一日通/字段异或和.md",
-    "算法学习/前缀和与差分一日通/双指针+贪心.md",
     "算法学习/前缀和与差分一日通/二维差分.md",
-    "算法学习/前缀和与差分一日通/棋盘-真题.md",
-    "算法学习/前缀和与差分一日通/挖矿-真题.md",
-    "算法学习/常见入门算法/消失的蓝宝-真题.md",
-    "算法学习/常见入门算法/门牌制作-省赛真题.md",
-    "算法学习/常见入门算法/握手问题-24年省赛.md",
-    "算法学习/常见入门算法/数位倍数-真题.md",
-    "算法学习/常见入门算法/攻击次数-真题.md",
-    "算法学习/常见入门算法/变换数组-真题.md",
-    "算法学习/常见库函数与工具/字典的使用.md",
-    "算法学习/常见库函数与工具/哈希表的实现.md",
-    "算法学习/常见库函数与工具/插入排序.md",
-    "算法学习/常见库函数与工具/封闭图形个数-真题.md",
-    "算法学习/常见库函数与工具/ord()+chr().md",
-    "算法学习/常见库函数与工具/最大堆+贪心.md",
-    "真题文件/1-模拟-基础逻辑/登山-真题.md",
-    "算法学习/常见库函数与工具/最小堆+双向链表.md",
-    "算法学习/常见库函数与工具/冷热数据队列-真题.md",
-    "算法学习/常见库函数与工具/封印宝石-真题.md",
-    "算法学习/常见库函数与工具/团建-真题.md",
+    "算法学习/前缀和与差分一日通/双指针+贪心.md",
+    "算法学习/前缀和与差分一日通/异或和.md",
+    "Pasted image 20260327095337.png",
+    "算法学习/二分解题法/卡牌-真题.md",
+    "算法学习/二分解题法/肖恩的乘法表.md",
+    "算法学习/二分解题法/成绩统计-真题.md",
+    "算法学习/二分解题法/寻找黄金宝藏.md",
+    "算法学习/二分解题法/倒水-真题.md",
+    "算法学习/二分解题法/大衣的旅行.md",
+    "算法学习/二分解题法/最少刷题数-真题.md",
+    "算法学习/二分解题法/管道-真题.md",
+    "算法学习/前缀和与差分一日通/前缀和与差分.md",
+    "算法学习/时空复杂度与递归递推/神奇生物的繁衍-递推.md",
+    "算法学习/时空复杂度与递归递推/斐波那契数列-递推.md",
+    "算法学习/树/并查集+连通分量的大小.md",
+    "算法学习/树/种桑果-树的遍历 难.md",
+    "算法学习/数论基础/组合数.md",
+    "算法学习/数论基础/快速幂.md",
+    "算法学习/数论基础/A · B Problem-真题.md",
+    "算法学习/数论基础/寻找质数-真题.md",
+    "算法学习/数论基础/合法奇数.md",
+    "算法学习/搜索+图/单源最短路（Dijkstra）和全源最短路（Floyd）总结.md",
+    "算法学习/搜索+图/BFS.md",
+    "算法学习/搜索+图/permutations 排列组合.md",
+    "算法学习/贪心与思维专练/排序算法-知识点.md",
+    "算法学习/贪心与思维专练/01串-真题.md",
+    "proxy.js",
+    "mock_server.py",
     "test.py",
     "算法学习/数据结构/树形数据结构/求面积和.py",
     "test.py~",
@@ -171,8 +236,6 @@
     "真题文件/1-模拟-基础逻辑/log.txt",
     "build_tixingku.py",
     "算法学习/二分解题法/最少刷题数.py",
-    "算法学习/贪心与思维专练/水质检测.py",
-    "算法学习/贪心与思维专练/劲舞团.py",
     "算法学习/贪心与思维专练/附件/Pasted image 20260307152356.png",
     "算法学习/贪心与思维专练/附件/Pasted image 20260306113153.png",
     "附件/Pasted image 20260125205153.png",
@@ -181,7 +244,6 @@
     "附件/Pasted image 20260121225824.png",
     "附件/Pasted image 20260122213359(1).png",
     "附件/Pasted image 20260125155024.png",
-    "附件/Pasted image 20260122132517(1).png",
-    "附件/Pasted image 20260120160606(1).png"
+    "附件/Pasted image 20260122132517(1).png"
   ]
 }
