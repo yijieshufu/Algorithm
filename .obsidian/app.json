@@ -5,5 +5,7 @@
   "showIndentGuide": true,
   "smartIndentList": false,
   "alwaysUpdateLinks": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": ""
 }

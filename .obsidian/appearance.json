@@ -1,7 +1,7 @@
 {
   "cssTheme": "Dracula for Obsidian",
   "baseFontSizeAction": true,
-  "baseFontSize": 15,
+  "baseFontSize": 12,
   "nativeMenus": false,
   "showViewHeader": true,
   "showRibbon": true,
