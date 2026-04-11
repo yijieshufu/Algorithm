@@ -1,9 +1,10 @@
 {
   "cssTheme": "Dracula for Obsidian",
   "baseFontSizeAction": true,
-  "baseFontSize": 10,
+  "baseFontSize": 18,
   "nativeMenus": false,
   "showViewHeader": true,
   "showRibbon": true,
-  "accentColor": "#000000"
+  "accentColor": "#59438e",
+  "enabledCssSnippets": []
 }

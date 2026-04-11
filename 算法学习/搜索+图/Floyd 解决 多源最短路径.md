@@ -18,35 +18,6 @@
 **状态定义**：$f[k][i][j]$ 表示“只允许经过前 $k$ 个点作为中转点”时，$i$ 到 $j$ 的最短路。  
 **转移方程**：  
 $$f[k][i][j] = \min(f[k-1][i][j], f[k-1][i][k] + f[k-1][k][j])$$
-
-**通用骨架**：
-```python
-# --- 1. 初始化 (Preparation) ---
-inf = float("inf")
-dist = [[inf] * (n + 1) for _ in range(n + 1)]
-
-# 每一个点到自己的距离是 0
-for i in range(1, n + 1):
-    dist[i][i] = 0
-
-# --- 2. 存入边 (Edge Storage) ---
-# 注意：无向图对称存边，且保留重边中的最小值
-for _ in range(m):
-    u, v, w = map(int, next(it))
-    if w < dist[u][v]:
-        dist[u][v] = dist[v][u] = w
-
-# --- 3. 核心三层循环 (DP Core) ---
-# k: 中转点, i: 起点, j: 终点
-for k in range(1, n + 1):
-    for i in range(1, n + 1):
-        # 优化：如果起点连不上中转点，直接跳过内层循环
-        if dist[i][k] == inf: continue
-        for j in range(1, n + 1):
-            # 状态转移方程: dist[i][j] = min(直接走, 经过 k 绕路走)
-            if dist[i][k] + dist[k][j] < dist[i][j]:
-                dist[i][j] = dist[i][k] + dist[k][j]
-```
 ## 代码
 ```python
 import sys

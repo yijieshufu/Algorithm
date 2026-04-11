@@ -1,4 +1,13 @@
-/* 隐藏列表中的缩进指引线 */
-.markdown-source-view.mod-cm6 .cm-indent-guide {
-    display: none;
+/* 行内公式高亮 */
+.math-inline {
+    background-color: rgba(255, 211, 0, 0.2); /* 亮黄色半透明 */
+    border-bottom: 1px solid #ffd300;
+    padding: 0 2px;
+}
+
+/* 块级公式高亮 */
+.math-block {
+    background-color: rgba(0, 122, 255, 0.05); /* 淡蓝色背景 */
+    border-left: 4px solid #007aff;
+    padding: 10px !important;
 }
